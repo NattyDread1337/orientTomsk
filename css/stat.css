@@ -1,0 +1,247 @@
+	.stat {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.stat h1 {
+	font-family: Gilroy;
+	margin-bottom: 0px;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.stat p {
+	font-family: Gilroy;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+.fotonews1 {
+	height: auto;
+	width: 840px;
+	background-color: #6f6f6f;
+	display: block;
+  	margin-top: 30px;
+}
+div.sorev > .del1,.del2,.del3,.del4{
+	height: auto;
+	width: 400px;
+	display: flex;
+    flex-direction: column;
+}
+.info_article{
+	flex: 0;
+}
+.info2_article{
+	flex: 1;
+}
+.separator1_article{
+			margin-top: 70px;
+		}
+.foto__clause img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.clause{
+	margin-top: 30px;
+	border-bottom: 2px solid #cac3c3;
+}
+.text__clause p{
+	color: #161616;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Gilroy;
+    font-size: 17px;
+}
+#stat{
+	margin-top: 120px;
+}
+.text__clause h2{
+	color: #161616;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Gilroy;
+    font-size: 16px;
+    position: absolute;
+    right: 40px;
+    top: 13px;
+}
+.text__clause .btn {
+	background-color: #e8e8e8;
+    border-radius: 0 0;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Gilroy;
+    font-size: 15px;
+    color: #161616;
+    height: 50px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+.text__clause .btn:hover {
+	background-color: #ea5a21;
+	color: white;
+	text-decoration: none;
+}
+.text__clause h3 {
+	width: 80%;
+	height: auto;
+}
+.paginator {
+	margin-top: 50px;
+}
+.clubs img {
+	width: 100%;
+	height: auto;
+}
+
+
+.clubs h1,h2,h4 {
+	font-family: 'Gilroy';
+}
+
+.clubs h2 {
+	font-size: 27px;
+}
+.clubs h4 {
+	font-size: 22px;
+}
+.faq p {
+	font-size: 17px;
+	font-weight: 500;
+}
+.question {
+	margin-top: 2%;
+}
+.question h4{
+	font-weight: 600;
+}
+.question h3 {
+	font-family: 'Gilroy';
+	font-weight: 500;
+}
+input[type=text]{
+	width:120px;
+}
+.admin__panel h4 {
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+.admin__panel input {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+/*СТИЛИ ТАБЛИЦЫ*/
+
+@media screen and (max-width: 1318px) {
+
+table td, .t1k td {
+	padding: 15px 15px;
+}
+}
+@media screen and (max-width: 1199px) {
+table td, .t1k td {
+	padding: 10px 7px;
+}	
+table th, .t1k th {
+    padding: 10px 7px;
+}
+}
+@media screen and (max-width: 1119px) {
+
+.number {
+	font-weight:bold;
+}
+
+@media screen and (max-width: 991px) {
+	.fotonews1 {
+	height: auto;
+	width: 760px;
+}
+	#stat{
+	margin-top: 80px;
+}
+	.foto__clause img {
+	margin-top: 2%;
+	}
+.text__clause h2 {
+	top: 10px;
+}
+.clubs img {
+	width: 50%;
+	display:block;
+margin:auto;
+}
+.separator_clubs{
+	margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 891px) {
+	.fotonews1 {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 767px) {
+.foto__clause img {
+    margin-top: 2%;
+}
+}
+@media screen and (max-width: 525px) {
+	.text__clause h3 {
+    width: 70%;
+    height: auto;
+    font-size: 24px;
+}
+#stat > h1{
+	font-size: 30px;
+}
+
+.clubs img {
+	width: 70%;
+}
+.clubs h2 {
+    font-size: 25px;
+}
+.clubs h4 {
+    font-size: 20px;
+}
+
+}
+@media screen and (max-width: 391px) {
+	.text__clause h3 {
+    width: 60%;
+    height: auto;
+    font-size: 20px;
+}
+#stat > h1{
+	font-size: 25px;
+}
+
+.clubs h2 {
+    font-size: 20px;
+}
+.clubs h4 {
+    font-size: 17px;
+}
+	.text__clause h2 {
+		top: 4px;
+		font-size: 15px;
+	}
+	.text__clause p{
+		font-size: 16px;
+	}
+	.text__clause h3 {
+		font-size: 19px;
+	}
+	.footr__item a, p {
+		 font-size: 16px;
+	 }
+
+}
